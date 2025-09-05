@@ -299,7 +299,7 @@ csub,desconhecida,neg,3,True
 pgaa,desconhecida,neg,3,True
 pgab,desconhecida,neg,3,True
 pgac,desconhecida,neg,3,True
-inva ,proteína da membrana interna do T3SS-1,neg,3,True
-prgh,"componente estrutural do ""needle complex"" do T3SS-1",neg,3,True
-sipb,efetor secretado pelo T3SS-1,neg,3,True
-ssav,componente estrutural do T3SS-2,neg,3,True
+inva ,estrutura de sistema de secreção tipo III ,neg,3,True
+prgh,estrutura de sistema de secreção tipo III ,neg,3,True
+sipb,efetor de sistema de secreção tipo III,neg,3,True
+ssav,estrutura de sistema de secreção tipo III ,neg,3,True
