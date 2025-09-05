@@ -76,7 +76,7 @@ def atualizar_base_virulencia_completa():
 # ---------------------------
 @st.cache_data
 def carregar_base_completa():
-    base = pd.read_csv("base_virulencia.csv")
+    base = pd.read_csv("base_virulencia.csv", encoding="latin-1")
     base["gene"] = base["gene"].astype(str).str.strip().str.lower()
     base["gram"] = base["gram"].astype(str).str.strip().str.lower()
     base["categoria"] = base["categoria"].fillna("desconhecida")
