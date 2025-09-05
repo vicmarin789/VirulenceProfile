@@ -46,7 +46,7 @@ def atualizar_base_virulencia():
     df.to_csv("base_virulencia.csv", index=False)
 
 # ---------------------------
-# Atualiza base completa (automática + manual)
+# Atualiza base completa (automática + manual) — manual tem prioridade
 # ---------------------------
 def atualizar_base_virulencia_completa():
     atualizar_base_virulencia()
@@ -60,13 +60,14 @@ def atualizar_base_virulencia_completa():
         return len(base_auto)
 
     for df in [base_auto, base_manual]:
-        df["gene"] = df["gene"].astype(str).str.replace(r"\s+", "", regex=True).str.lower()
-        df["gram"] = df["gram"].astype(str).str.replace(r"\s+", "", regex=True).str.lower()
+        df["gene"] = df["gene"].astype(str).str.strip().str.lower()
+        df["gram"] = df["gram"].astype(str).str.strip().str.lower()
         df["categoria"] = df["categoria"].fillna("desconhecida")
         df["peso"] = pd.to_numeric(df["peso"], errors="coerce").fillna(0)
         df["evidencia"] = df["evidencia"].astype(str).str.strip().str.lower() == "true"
 
-    base_completa = pd.concat([base_auto, base_manual]).drop_duplicates(subset="gene")
+    # 🔹 Prioriza a base manual
+    base_completa = pd.concat([base_manual, base_auto]).drop_duplicates(subset="gene", keep="first")
     base_completa.to_csv("base_virulencia.csv", index=False)
     return len(base_completa)
 
@@ -76,21 +77,22 @@ def atualizar_base_virulencia_completa():
 @st.cache_data
 def carregar_base_completa():
     base = pd.read_csv("base_virulencia.csv")
-    base["gene"] = base["gene"].astype(str).str.replace(r"\s+", "", regex=True).str.lower()
-    base["gram"] = base["gram"].astype(str).str.replace(r"\s+", "", regex=True).str.lower()
+    base["gene"] = base["gene"].astype(str).str.strip().str.lower()
+    base["gram"] = base["gram"].astype(str).str.strip().str.lower()
     base["categoria"] = base["categoria"].fillna("desconhecida")
     base["peso"] = pd.to_numeric(base["peso"], errors="coerce").fillna(0)
     base["evidencia"] = base["evidencia"].astype(str).str.strip().str.lower() == "true"
     return base
 
 # ---------------------------
-# Classificação refinada
+# Classificação refinada — preserva nome original
 # ---------------------------
 def classificar(df, gram="neg", base=None):
     pontuacao = 0
     detalhes = []
 
-    df["gene"] = df["gene"].astype(str).str.replace(r"\s+", "", regex=True).str.lower()
+    df["gene_original"] = df["gene"]  # guarda para exibir
+    df["gene"] = df["gene"].astype(str).str.strip().str.lower()
     df["identidade"] = pd.to_numeric(df["identidade"], errors="coerce").fillna(0)
     df["cobertura"] = pd.to_numeric(df["cobertura"], errors="coerce").fillna(0)
 
@@ -103,6 +105,7 @@ def classificar(df, gram="neg", base=None):
             (base["gene"] == gene) &
             ((base["gram"] == gram) | (base["gram"] == "ambos"))
         ]
+
         if not info.empty:
             linha = info.iloc[0]
             if identidade >= 85 and cobertura >= 95:
@@ -110,11 +113,11 @@ def classificar(df, gram="neg", base=None):
                 if linha["evidencia"]:
                     peso *= 1.5
                 pontuacao += peso
-                detalhes.append((gene, linha["categoria"], round(peso, 2)))
+                detalhes.append((fator["gene_original"], linha["categoria"], round(peso, 2)))
             else:
-                detalhes.append((gene, linha["categoria"], 0))
+                detalhes.append((fator["gene_original"], linha["categoria"], 0))
         else:
-            detalhes.append((gene, "não classificado", 0))
+            detalhes.append((fator["gene_original"], "não classificado", 0))
 
     if pontuacao >= 20:
         resultado = "Alta probabilidade de patogenicidade"
@@ -191,6 +194,3 @@ if uploaded_file:
             categoria_df.columns = ["Categoria", "Número de genes", "Pontuação total"]
             st.dataframe(categoria_df)
             st.bar_chart(categoria_df.set_index("Categoria")["Número de genes"])
-
-
-
