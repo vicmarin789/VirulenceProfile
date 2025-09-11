@@ -1,4 +1,4 @@
-Python
-Streamlit
-Pandas
+streamlit>=1.25
+pandas>=1.3
+
 
