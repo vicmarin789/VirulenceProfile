@@ -1,3 +1,4 @@
-Python 3.9+
+Python
 Streamlit
-Arquivo CSV de entrada no formato: gene,identidade,cobertura
+Pandas
+
