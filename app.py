@@ -77,6 +77,7 @@ if arquivo:
 
     if st.button("Classificar"):
         resultados = []
+
         for _, row in df_input.iterrows():
             gene = row["gene"]
             identidade = row["identidade"]
@@ -113,27 +114,8 @@ if arquivo:
             st.write(f"**Pontuação total ajustada:** {pontuacao_total}")
             st.write(f"**Classificação:** {classificacao}")
 
-            # --- Filtros interativos ---
-            st.markdown("## 🔍 Filtrar resultados")
-            genes_unicos = sorted(df_resultados["gene"].unique())
-            filtro_gene = st.multiselect("Filtrar por gene:", options=genes_unicos)
-
-            categorias_unicas = sorted(df_resultados["categoria"].unique())
-            filtro_categoria = st.multiselect("Filtrar por categoria:", options=categorias_unicas)
-
-            gram_unicos = sorted(df_resultados["gram"].unique())
-            filtro_gram = st.multiselect("Filtrar por Gram:", options=gram_unicos)
-
-            df_filtrado = df_resultados.copy()
-            if filtro_gene:
-                df_filtrado = df_filtrado[df_filtrado["gene"].isin(filtro_gene)]
-            if filtro_categoria:
-                df_filtrado = df_filtrado[df_filtrado["categoria"].isin(filtro_categoria)]
-            if filtro_gram:
-                df_filtrado = df_filtrado[df_filtrado["gram"].isin(filtro_gram)]
-
-            st.markdown("## 📋 Tabela filtrada")
-            st.dataframe(df_filtrado, use_container_width=True)
+            st.markdown("## 📋 Tabela de Resultados")
+            st.dataframe(df_resultados, use_container_width=True)
 
         else:
             st.warning("Nenhum gene foi classificado com os critérios atuais.")
