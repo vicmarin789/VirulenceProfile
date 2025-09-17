@@ -262,6 +262,8 @@ ssar,Efetor de T3SS,neg,3,True
 sseb,Efetor de T3SS,neg,3,True
 ssec,Efetor de T3SS,neg,3,True
 sope2,Efetor de T3SS,neg,3,True
+sopa,Efetor de T3SS,neg,3,True
+span,Componente estrutural T3SS ,neg,3,True
 sopb,Efetor de T3SS,neg,3,True
 pagc,Regulador de virulência,neg,3,True
 phop,Regulador de virulência (PhoP),neg,3,True
@@ -398,4 +400,6 @@ map,Proteína associada à adesão,neg,3,True
 cpxr,Regulador de dois componentes (CpxR),neg,3,True
 sspa,Proteína de secreção,neg,3,True
 prfc,Fator de liberação de tradução,neg,3,True
-prfc,desconhecida,neg,0,True
+slrp,Ligase E3 ubiquitina ,neg,3,True
+prfc,desconhecida,neg,3,True
+fimd,Fímbrias tipo 1 ,neg,3,True
