@@ -102,6 +102,17 @@ nhea,"toxina enterotóxica não-hemolítica, ligada a quadros de diarreia ",pos,
 nheb,"toxina enterotóxica não-hemolítica, ligada a quadros de diarreia ",pos,3,true
 nhec,"toxina enterotóxica não-hemolítica, ligada a quadros de diarreia ",pos,3,true
 basrs06430,frequentemente detectado em cepas patogênicas ,pos,2,true
+dhbb,biossíntese de sideróforos (como bacillibactina) ,pos,1,true
+dhbc,biossíntese de sideróforos (como bacillibactina) ,pos,1,true
+alo,possível proteína de adesão ou regulação ,pos,1,true
+asbe,função desconhecida ,pos,1,true
+hbld,possível relação com hemolisinas ou proteínas de membrana ,pos,1,true
+dhbf,biossíntese de sideróforos (como bacillibactina) ,pos,1,true
+dhbe,biossíntese de sideróforos (como bacillibactina) ,pos,1,true
+dhba,biossíntese de sideróforos (como bacillibactina) ,pos,1,true
+asbc,função desconhecida ,pos,1,true
+asba,função desconhecida ,pos,1,true
+asbf,função desconhecida ,pos,1,true
 dhba–f,biossíntese de sideróforos (como bacillibactina) ,pos,1,true
 ilsa,"proteína de superfície regulada por ferro, envolvida em adesão e invasão ",pos,1,true
 dhbaf,biossíntese de sideróforos (como bacillibactina) ,pos,1,true
