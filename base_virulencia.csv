@@ -1,31 +1,31 @@
 gene,categoria,gram,peso,evidencia
-ssek1,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-stm4157,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-stmf1.17,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-ssek2,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-stm2137,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-spvb,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-spva,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-pslt039,efetor plasmidial associado à virulência,neg,3,true
+ssek1,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+stm4157,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+stmf1.17,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+ssek2,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+stm2137,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+spvb,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+spva,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+pslt039,efetor plasmidial associado ï¿½ virulï¿½ncia,neg,3,true
 vapc,toxina de sistema toxina-antitoxina vapbc,neg,3,true
-pslt106,efetor plasmidial associado à virulência,neg,3,true
+pslt106,efetor plasmidial associado ï¿½ virulï¿½ncia,neg,3,true
 hlya,toxina hemolisina,neg,3,true
-cif,efetor de t3ss (fator de interferência no ciclo celular),neg,3,true
+cif,efetor de t3ss (fator de interferï¿½ncia no ciclo celular),neg,3,true
 suba,subunidade de toxina proteica,neg,3,true
 elta,enterotoxina lt subunidade a,neg,3,true
 ltpa,enterotoxina lt subunidade a,neg,3,true
-sta3,enterotoxina termoestável,neg,3,true
-sta4,enterotoxina termoestável,neg,3,true
+sta3,enterotoxina termoestï¿½vel,neg,3,true
+sta4,enterotoxina termoestï¿½vel,neg,3,true
 eltb,enterotoxina lt subunidade b,neg,3,true
 ltpb,enterotoxina lt subunidade b,neg,3,true
 cdia,toxina distensora citoletal (cdt),neg,3,true
 ospc3,efetor de t3ss (ospc3),neg,3,true
 cdta,toxina distensora citoletal (cdt),neg,3,true
-sta1,enterotoxina termoestável,neg,3,true
-stii,enterotoxina termoestável,neg,3,true
+sta1,enterotoxina termoestï¿½vel,neg,3,true
+stii,enterotoxina termoestï¿½vel,neg,3,true
 cdtb,toxina distensora citoletal (cdt),neg,3,true
 cdtc,toxina distensora citoletal (cdt),neg,3,true
-sta2,enterotoxina termoestável,neg,3,true
+sta2,enterotoxina termoestï¿½vel,neg,3,true
 stx2,toxina shiga,neg,3,true
 a-subunit,subunidade a de toxina,neg,3,true
 stx-2,toxina shiga,neg,3,true
@@ -38,19 +38,19 @@ stx2va,toxina shiga,neg,3,true
 stxa2,toxina shiga,neg,3,true
 vta,toxina shiga,neg,3,true
 vtx2a,toxina shiga,neg,3,true
-abe91_023155,gene associado à virulência (função não caracterizada),neg,3,true
-btq06_25175,gene associado à virulência (função não caracterizada),neg,3,true
-bvcmskkp061_02557,gene associado à virulência (função não caracterizada),neg,3,true
-div22_21825,gene associado à virulência (função não caracterizada),neg,3,true
+abe91_023155,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+btq06_25175,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+bvcmskkp061_02557,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+div22_21825,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
 stx2d2a,toxina shiga,neg,3,true
 stx2da,toxina shiga,neg,3,true
 stx2ga,toxina shiga,neg,3,true
 stxa2c,toxina shiga,neg,3,true
-g4a47_16505,gene associado à virulência (função não caracterizada),neg,3,true
+g4a47_16505,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
 cdt-va,toxina distensora citoletal (cdt),neg,3,true
-vagd,fator de adesão/virulência,neg,3,true
-bgz_00044,gene associado à virulência (função não caracterizada),neg,3,true
-rcs36_pi-ii0053,gene associado à virulência (função não caracterizada),neg,3,true
+vagd,fator de adesï¿½o/virulï¿½ncia,neg,3,true
+bgz_00044,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+rcs36_pi-ii0053,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
 hly,toxina hemolisina,pos,3,true
 hla,toxina hemolisina alfa,pos,3,true
 enta,enterotoxina,pos,3,true
@@ -68,7 +68,7 @@ lukf,leucocidina,pos,3,true
 luks,leucocidina,pos,3,true
 entc1,enterotoxina,pos,3,true
 luke,leucocidina,pos,3,true
-tst,toxina da síndrome do choque tóxico,pos,3,true
+tst,toxina da sï¿½ndrome do choque tï¿½xico,pos,3,true
 eta,toxina esfoliativa,pos,3,true
 entg,enterotoxina,pos,3,true
 seg,enterotoxina,pos,3,true
@@ -78,181 +78,190 @@ plc,fosfolipase c,pos,3,true
 hlgc,hemolisina gama,pos,3,true
 etb,toxina esfoliativa,pos,3,true
 hlgb,hemolisina gama,pos,3,true
-bn1321_240005,gene associado à virulência (função não caracterizada),pos,3,true
-go793_03050,gene associado à virulência (função não caracterizada),pos,3,true
-go941_14550,gene associado à virulência (função não caracterizada),pos,3,true
-tmsfp482_10480,gene associado à virulência (função não caracterizada),pos,3,true
-g0004_13910,gene associado à virulência (função não caracterizada),pos,3,true
+bn1321_240005,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+go793_03050,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+go941_14550,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+tmsfp482_10480,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+g0004_13910,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
 hly1,toxina hemolisina,pos,3,true
-lmo0202,gene associado à virulência (função não caracterizada),pos,3,true
-bes38_07745,gene associado à virulência (função não caracterizada),pos,3,true
-cd20_14235,gene associado à virulência (função não caracterizada),pos,3,true
-d4271_14145,gene associado à virulência (função não caracterizada),pos,3,true
-d4c60_15385,gene associado à virulência (função não caracterizada),pos,3,true
-d4d89_14080,gene associado à virulência (função não caracterizada),pos,3,true
-d5m70_14205,gene associado à virulência (função não caracterizada),pos,3,true
-e0i39_14285,gene associado à virulência (função não caracterizada),pos,3,true
-e1v33_13495,gene associado à virulência (função não caracterizada),pos,3,true
-fju19_13850,gene associado à virulência (função não caracterizada),pos,3,true
-g3r95_002926,gene associado à virulência (função não caracterizada),pos,3,true
-ctx,toxina colérica,neg,3,true
-vagc,fator de adesão/virulência,neg,3,true
-caz10_10370,gene associado à virulência (função não caracterizada),neg,3,true
-mvpa,fator de adesão/virulência,neg,3,true
-cp25,gene associado à virulência (função não caracterizada),neg,3,true
-gnq20_30375,gene associado à virulência (função não caracterizada),neg,3,true
-alp65_03380,gene associado à virulência (função não caracterizada),neg,3,true
+lmo0202,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+bes38_07745,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+cd20_14235,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+d4271_14145,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+d4c60_15385,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+d4d89_14080,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+d5m70_14205,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+e0i39_14285,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+e1v33_13495,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+fju19_13850,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+nhea,"toxina enterotÃ³xica nÃ£o-hemolÃ­tica, ligada a quadros de diarreia ",pos,3,true
+nheb,"toxina enterotÃ³xica nÃ£o-hemolÃ­tica, ligada a quadros de diarreia ",pos,3,true
+nhec,"toxina enterotÃ³xica nÃ£o-hemolÃ­tica, ligada a quadros de diarreia ",pos,3,true
+basrs06430,Frequentemente detectado em cepas patogÃªnicas ,pos,3,true
+dhbaâ€“f,BiossÃ­ntese de siderÃ³foros (como bacillibactina) ,pos,1,true
+ilsa,"ProteÃ­na de superfÃ­cie regulada por ferro, envolvida em adesÃ£o e invasÃ£o ",pos,1,true
+dhbaf,BiossÃ­ntese de siderÃ³foros (como bacillibactina) ,pos,1,true
+inha,metaloprotease que pode degradar proteÃ­nas do hospedeiro ,pos,1,true
+bas_rs06430,Frequentemente detectado em cepas patogÃªnicas ,pos,3,true
+g3r95_002926,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),pos,3,true
+ctx,toxina colï¿½rica,neg,3,true
+vagc,fator de adesï¿½o/virulï¿½ncia,neg,3,true
+caz10_10370,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+mvpa,fator de adesï¿½o/virulï¿½ncia,neg,3,true
+cp25,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gnq20_30375,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+alp65_03380,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
 exot,exotoxina,neg,3,true
 cdia1,toxina distensora citoletal (cdt),neg,3,true
 yope_2,efetor yop (t3ss),neg,3,true
-tueid40_04825,gene associado à virulência (função não caracterizada),neg,3,true
+tueid40_04825,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
 exos,exotoxina,neg,3,true
 yope_1,efetor yop (t3ss),neg,3,true
-paerug_p19_london_7_vim_2_05_10_06238,gene associado à virulência (função não caracterizada),neg,3,true
-gnq48_28195,gene associado à virulência (função não caracterizada),neg,3,true
-gul26_36560,gene associado à virulência (função não caracterizada),neg,3,true
-f7o97_28785,gene associado à virulência (função não caracterizada),neg,3,true
-gnq20_20390,gene associado à virulência (função não caracterizada),neg,3,true
-cp0115,gene associado à virulência (função não caracterizada),neg,3,true
-sf_p0115,gene associado à virulência (função não caracterizada),neg,3,true
-ospc1,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-cp0094,gene associado à virulência (função não caracterizada),neg,3,true
-sf_p0094,gene associado à virulência (função não caracterizada),neg,3,true
-ospz,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-dk174_21500,gene associado à virulência (função não caracterizada),neg,3,true
-ospc4,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-cp0005,gene associado à virulência (função não caracterizada),neg,3,true
-sf_p0005,gene associado à virulência (função não caracterizada),neg,3,true
-ospc2,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-cp0063,gene associado à virulência (função não caracterizada),neg,3,true
-sf_p0063,gene associado à virulência (função não caracterizada),neg,3,true
-ospd3,efetor de sistema de secreção tipo iii (t3ss),neg,3,true
-cp0093,gene associado à virulência (função não caracterizada),neg,3,true
-sf_p0093,gene associado à virulência (função não caracterizada),neg,3,true
-ceg97_21545,gene associado à virulência (função não caracterizada),neg,3,true
-samea3710514_04731,gene associado à virulência (função não caracterizada),neg,3,true
-dk174_16565,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9783_05133,gene associado à virulência (função não caracterizada),neg,3,true
-ceg97_05710,gene associado à virulência (função não caracterizada),neg,3,true
-ceg97_01950,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9783_05162,gene associado à virulência (função não caracterizada),neg,3,true
-samea3710514_05301,gene associado à virulência (função não caracterizada),neg,3,true
-gln84_23460,gene associado à virulência (função não caracterizada),neg,3,true
-gln84_24275,gene associado à virulência (função não caracterizada),neg,3,true
-dk174_22685,gene associado à virulência (função não caracterizada),neg,3,true
-samea3710514_05304,gene associado à virulência (função não caracterizada),neg,3,true
-dk174_22755,gene associado à virulência (função não caracterizada),neg,3,true
-samea3710514_05081,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9783_05182,gene associado à virulência (função não caracterizada),neg,3,true
-sflp147,gene associado à virulência (função não caracterizada),neg,3,true
-inf167p1_00142,gene associado à virulência (função não caracterizada),neg,3,true
+paerug_p19_london_7_vim_2_05_10_06238,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gnq48_28195,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gul26_36560,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+f7o97_28785,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gnq20_20390,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+cp0115,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+sf_p0115,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ospc1,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+cp0094,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+sf_p0094,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ospz,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+dk174_21500,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ospc4,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+cp0005,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+sf_p0005,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ospc2,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+cp0063,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+sf_p0063,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ospd3,efetor de sistema de secreï¿½ï¿½o tipo iii (t3ss),neg,3,true
+cp0093,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+sf_p0093,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ceg97_21545,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3710514_04731,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+dk174_16565,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9783_05133,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ceg97_05710,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ceg97_01950,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9783_05162,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3710514_05301,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gln84_23460,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gln84_24275,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+dk174_22685,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3710514_05304,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+dk174_22755,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3710514_05081,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9783_05182,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+sflp147,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+inf167p1_00142,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
 vapc_1,toxina de sistema toxina-antitoxina vapbc,neg,3,true
 vapc_2,toxina de sistema toxina-antitoxina vapbc,neg,3,true
-nctc204_06990,gene associado à virulência (função não caracterizada),neg,3,true
-nctc8849_06658,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9637_00067,gene associado à virulência (função não caracterizada),neg,3,true
-samea4873646_05045,gene associado à virulência (função não caracterizada),neg,3,true
-samea4873655_03326,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9183_00522,gene associado à virulência (função não caracterizada),neg,3,true
-ie990_30190,gene associado à virulência (função não caracterizada),neg,3,true
-ie992_28380,gene associado à virulência (função não caracterizada),neg,3,true
-ie996_30360,gene associado à virulência (função não caracterizada),neg,3,true
-fme62_27155,gene associado à virulência (função não caracterizada),neg,3,true
-samea4364603_04576,gene associado à virulência (função não caracterizada),neg,3,true
-eao28_30645,gene associado à virulência (função não caracterizada),neg,3,true
-samea4873629_05348,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9183_00382,gene associado à virulência (função não caracterizada),neg,3,true
-ie978_01885,gene associado à virulência (função não caracterizada),neg,3,true
-q6294_28115,gene associado à virulência (função não caracterizada),neg,3,true
-g4v31_28080,gene associado à virulência (função não caracterizada),neg,3,true
-nctc11679_06177,gene associado à virulência (função não caracterizada),neg,3,true
-puuh_puuh2392p0092,gene associado à virulência (função não caracterizada),neg,3,true
-nctc204_07118,gene associado à virulência (função não caracterizada),neg,3,true
-nctc5051_05839,gene associado à virulência (função não caracterizada),neg,3,true
-nctc5052_05792,gene associado à virulência (função não caracterizada),neg,3,true
-nctc5053_07019,gene associado à virulência (função não caracterizada),neg,3,true
-nctc8849_05859,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9601_00239,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9617_00135,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9637_00358,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9645_06374,gene associado à virulência (função não caracterizada),neg,3,true
-fxn67_21285,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9140_00752,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9617_03578,gene associado à virulência (função não caracterizada),neg,3,true
-ete64_21905,gene associado à virulência (função não caracterizada),neg,3,true
-ete86_19880,gene associado à virulência (função não caracterizada),neg,3,true
-samea4873646_05006,gene associado à virulência (função não caracterizada),neg,3,true
-samea4873647_04908,gene associado à virulência (função não caracterizada),neg,3,true
-dm078_27535,gene associado à virulência (função não caracterizada),neg,3,true
-fxn67_28215,gene associado à virulência (função não caracterizada),neg,3,true
-ipf_184,gene associado à virulência (função não caracterizada),neg,3,true
-ipf_89,gene associado à virulência (função não caracterizada),neg,3,true
-samea3499874_05261,gene associado à virulência (função não caracterizada),neg,3,true
-samea3499901_05248,gene associado à virulência (função não caracterizada),neg,3,true
-b5l96_08425,gene associado à virulência (função não caracterizada),neg,3,true
-b6i68_17390,gene associado à virulência (função não caracterizada),neg,3,true
-banra_01712,gene associado à virulência (função não caracterizada),neg,3,true
-bl124_00012810,gene associado à virulência (função não caracterizada),neg,3,true
-cp554_16845,gene associado à virulência (função não caracterizada),neg,3,true
-dm078_20200,gene associado à virulência (função não caracterizada),neg,3,true
-dw286_17065,gene associado à virulência (função não caracterizada),neg,3,true
-e1814_17355,gene associado à virulência (função não caracterizada),neg,3,true
-eao17_14150,gene associado à virulência (função não caracterizada),neg,3,true
-g4v31_22355,gene associado à virulência (função não caracterizada),neg,3,true
-gjj01_22495,gene associado à virulência (função não caracterizada),neg,3,true
-gjj08_026430,gene associado à virulência (função não caracterizada),neg,3,true
-gjj18_19920,gene associado à virulência (função não caracterizada),neg,3,true
-gnf00_11530,gene associado à virulência (função não caracterizada),neg,3,true
-h3g96_026530,gene associado à virulência (função não caracterizada),neg,3,true
-jmz77_26110,gene associado à virulência (função não caracterizada),neg,3,true
-kpzu09_51520,gene associado à virulência (função não caracterizada),neg,3,true
-ls45_15465,gene associado à virulência (função não caracterizada),neg,3,true
-nctc11679_05636,gene associado à virulência (função não caracterizada),neg,3,true
-nctc13443_00679,gene associado à virulência (função não caracterizada),neg,3,true
-nctc13465_05507,gene associado à virulência (função não caracterizada),neg,3,true
-nctc204_01865,gene associado à virulência (função não caracterizada),neg,3,true
-nctc8849_00075,gene associado à virulência (função não caracterizada),neg,3,true
-nctc9128_03826,gene associado à virulência (função não caracterizada),neg,3,true
-q6294_21865,gene associado à virulência (função não caracterizada),neg,3,true
-samea104567804_04086,gene associado à virulência (função não caracterizada),neg,3,true
-samea2273558_04700,gene associado à virulência (função não caracterizada),neg,3,true
-samea3499874_04396,gene associado à virulência (função não caracterizada),neg,3,true
-samea3499901_04133,gene associado à virulência (função não caracterizada),neg,3,true
-samea3515122_04633,gene associado à virulência (função não caracterizada),neg,3,true
-samea3538828_04305,gene associado à virulência (função não caracterizada),neg,3,true
-samea3649591_04249,gene associado à virulência (função não caracterizada),neg,3,true
-samea3649733_04844,gene associado à virulência (função não caracterizada),neg,3,true
-samea3720909_04089,gene associado à virulência (função não caracterizada),neg,3,true
-samea3729652_04302,gene associado à virulência (função não caracterizada),neg,3,true
-samea4873632_04701,gene associado à virulência (função não caracterizada),neg,3,true
+nctc204_06990,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc8849_06658,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9637_00067,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea4873646_05045,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea4873655_03326,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9183_00522,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ie990_30190,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ie992_28380,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ie996_30360,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+fme62_27155,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea4364603_04576,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+eao28_30645,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea4873629_05348,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9183_00382,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ie978_01885,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+q6294_28115,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+g4v31_28080,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc11679_06177,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+puuh_puuh2392p0092,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc204_07118,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc5051_05839,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc5052_05792,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc5053_07019,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc8849_05859,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9601_00239,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9617_00135,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9637_00358,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9645_06374,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+fxn67_21285,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9140_00752,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9617_03578,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ete64_21905,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ete86_19880,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea4873646_05006,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea4873647_04908,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+dm078_27535,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+fxn67_28215,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ipf_184,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ipf_89,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3499874_05261,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3499901_05248,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+b5l96_08425,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+b6i68_17390,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+banra_01712,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+bl124_00012810,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+cp554_16845,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+dm078_20200,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+dw286_17065,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+e1814_17355,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+eao17_14150,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+g4v31_22355,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gjj01_22495,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gjj08_026430,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gjj18_19920,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gnf00_11530,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+h3g96_026530,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+jmz77_26110,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+kpzu09_51520,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ls45_15465,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc11679_05636,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc13443_00679,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc13465_05507,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc204_01865,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc8849_00075,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc9128_03826,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+q6294_21865,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea104567804_04086,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea2273558_04700,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3499874_04396,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3499901_04133,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3515122_04633,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3538828_04305,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3649591_04249,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3649733_04844,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3720909_04089,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea3729652_04302,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+samea4873632_04701,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
 chxa,toxina hemolisina,neg,3,true
 toxa,toxina (geral),neg,3,true
-a51_b1772,gene associado à virulência (função não caracterizada),neg,3,true
-stn,enterotoxina termoestável,neg,3,true
-sto,enterotoxina termoestável,neg,3,true
+a51_b1772,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+stn,enterotoxina termoestï¿½vel,neg,3,true
+sto,enterotoxina termoestï¿½vel,neg,3,true
 rtxa,toxina rtx,neg,3,true
-d6u24_04990,gene associado à virulência (função não caracterizada),neg,3,true
-g3t61_12610,gene associado à virulência (função não caracterizada),neg,3,true
-ers013165_03657,gene associado à virulência (função não caracterizada),neg,3,true
-f9u35_06210,gene associado à virulência (função não caracterizada),neg,3,true
-f2n06_02850,gene associado à virulência (função não caracterizada),neg,3,true
-c7v25_02410,gene associado à virulência (função não caracterizada),neg,3,true
-gro02_04810,gene associado à virulência (função não caracterizada),neg,3,true
-jyc20_001187,gene associado à virulência (função não caracterizada),neg,3,true
-e7n58_06920,gene associado à virulência (função não caracterizada),neg,3,true
-f8y55_09730,gene associado à virulência (função não caracterizada),neg,3,true
-lzc39_01370,gene associado à virulência (função não caracterizada),neg,3,true
-c3h42_08785,gene associado à virulência (função não caracterizada),neg,3,true
-c3h48_06355,gene associado à virulência (função não caracterizada),neg,3,true
-f8y55_02700,gene associado à virulência (função não caracterizada),neg,3,true
-c3h42_08775,gene associado à virulência (função não caracterizada),neg,3,true
-dsw11_02875,gene associado à virulência (função não caracterizada),neg,3,true
-gff90_04515,gene associado à virulência (função não caracterizada),neg,3,true
-f2n15_06660,gene associado à virulência (função não caracterizada),neg,3,true
-gro02_04800,gene associado à virulência (função não caracterizada),neg,3,true
-jyc20_001189,gene associado à virulência (função não caracterizada),neg,3,true
-nctc13105_00808,gene associado à virulência (função não caracterizada),neg,3,true
-inva,proteína de invasão (salmonella),neg,3,true
+d6u24_04990,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+g3t61_12610,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ers013165_03657,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+f9u35_06210,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+f2n06_02850,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+c7v25_02410,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gro02_04810,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+jyc20_001187,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+e7n58_06920,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+f8y55_09730,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+lzc39_01370,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+c3h42_08785,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+c3h48_06355,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+f8y55_02700,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+c3h42_08775,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+dsw11_02875,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gff90_04515,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+f2n15_06660,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+gro02_04800,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+jyc20_001189,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+nctc13105_00808,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+inva,proteï¿½na de invasï¿½o (salmonella),neg,3,true
 prgh,componente estrutural do t3ss,neg,3,true
 prgk,componente estrutural do t3ss,neg,3,true
 sipb,efetor de t3ss,neg,3,true
@@ -265,153 +274,153 @@ sope2,efetor de t3ss,neg,3,true
 sopa,efetor de t3ss,neg,3,true
 span,componente estrutural t3ss ,neg,3,true
 sopb,efetor de t3ss,neg,3,true
-pagc,regulador de virulência,neg,3,true
-phop,regulador de virulência (phop),neg,3,true
-phoq,regulador de virulência (phoq),neg,3,true
+pagc,regulador de virulï¿½ncia,neg,3,true
+phop,regulador de virulï¿½ncia (phop),neg,3,true
+phoq,regulador de virulï¿½ncia (phoq),neg,3,true
 spvb,efetor de t3ss,neg,3,true
 spvc,efetor de t3ss,neg,3,true
 fimh,adesina fimbrial tipo 1,neg,3,true
-lpfa,proteína de adesão,neg,3,true
-misl,proteína de adesão,neg,3,true
+lpfa,proteï¿½na de adesï¿½o,neg,3,true
+misl,proteï¿½na de adesï¿½o,neg,3,true
 sifa,efetor de t3ss,neg,3,true
-ompa,proteína de membrana externa,neg,3,true
-csue,gene associado à virulência (função não caracterizada),neg,3,true
-bap,proteína associada a biofilme,neg,3,true
+ompa,proteï¿½na de membrana externa,neg,3,true
+csue,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+bap,proteï¿½na associada a biofilme,neg,3,true
 abai,regulador de quorum sensing,neg,3,true
 exos,exotoxina,neg,3,true
 lasb,elastase,neg,3,true
 algd,alginate deacetylase,neg,3,true
-esp,proteína secretada de virulência,neg,3,true
-acm,adesina de colágeno,neg,3,true
+esp,proteï¿½na secretada de virulï¿½ncia,neg,3,true
+acm,adesina de colï¿½geno,neg,3,true
 hla,hemolisina alfa,neg,3,true
-spa,proteína a,neg,3,true
+spa,proteï¿½na a,neg,3,true
 clfa,clumping factor a,neg,3,true
 fnba,fibronectin-binding protein a,neg,3,true
 rmpa,regulador de mucoviscosidade,neg,3,true
 entb,enterotoxina,neg,3,true
-uge,udp-galactose epimerase (síntese de cápsula),neg,3,true
-ybts,sistema transportador de sideróforo,neg,3,true
+uge,udp-galactose epimerase (sï¿½ntese de cï¿½psula),neg,3,true
+ybts,sistema transportador de siderï¿½foro,neg,3,true
 stx,toxina shiga,neg,3,true
-ybta,sistema transportador de sideróforo,neg,3,true
+ybta,sistema transportador de siderï¿½foro,neg,3,true
 clba,colibactina,neg,3,true
 clbb,colibactina,neg,3,true
 pila,pilina,neg,3,true
-algu,regulador de biossíntese de alginato,neg,3,true
+algu,regulador de biossï¿½ntese de alginato,neg,3,true
 lasl,regulador de quorum sensing,neg,3,true
 lasr,regulador de quorum sensing,neg,3,true
-asa1,adesina de superfície,neg,3,true
+asa1,adesina de superfï¿½cie,neg,3,true
 lasl,desconhecida,neg,3,true
 lasr,desconhecida,neg,3,true
 asa1,desconhecida,neg,3,true
-gele,gene associado à virulência (função não caracterizada),neg,3,true
+gele,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
 cyla,citolisina/hemolisina,neg,3,true
-icaa,biossíntese de polissacarídeo de adesão (formação de biofilme),neg,3,true
-icad,biossíntese de polissacarídeo de adesão (formação de biofilme),neg,3,true
-fnbb,proteína de ligação à fibronectina,neg,3,true
+icaa,biossï¿½ntese de polissacarï¿½deo de adesï¿½o (formaï¿½ï¿½o de biofilme),neg,3,true
+icad,biossï¿½ntese de polissacarï¿½deo de adesï¿½o (formaï¿½ï¿½o de biofilme),neg,3,true
+fnbb,proteï¿½na de ligaï¿½ï¿½o ï¿½ fibronectina,neg,3,true
 clfb,clumping factor b,neg,3,true
-cap5,biossíntese de cápsula tipo 5,neg,3,true
-cap8,biossíntese de cápsula tipo 8,neg,3,true
-maga,gene associado à virulência (função não caracterizada),neg,3,true
+cap5,biossï¿½ntese de cï¿½psula tipo 5,neg,3,true
+cap8,biossï¿½ntese de cï¿½psula tipo 8,neg,3,true
+maga,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
 rmpa2,regulador de mucoviscosidade,neg,3,true
-iuca,biossíntese de sideróforo aerobactina,neg,3,true
-iuta,receptor de sideróforo aerobactina,neg,3,true
+iuca,biossï¿½ntese de siderï¿½foro aerobactina,neg,3,true
+iuta,receptor de siderï¿½foro aerobactina,neg,3,true
 kfu,sistema transportador de ferro (klebsiella ferric uptake),neg,3,true
-csua,gene associado à virulência (função não caracterizada),neg,3,true
-csub,gene associado à virulência (função não caracterizada),neg,3,true
-pgaa,biossíntese de polissacarídeo de adesão (pga),neg,3,true
-pgab,biossíntese de polissacarídeo de adesão (pga),neg,3,true
-pgac,biossíntese de polissacarídeo de adesão (pga),neg,3,true
+csua,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+csub,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+pgaa,biossï¿½ntese de polissacarï¿½deo de adesï¿½o (pga),neg,3,true
+pgab,biossï¿½ntese de polissacarï¿½deo de adesï¿½o (pga),neg,3,true
+pgac,biossï¿½ntese de polissacarï¿½deo de adesï¿½o (pga),neg,3,true
 pstc,sistema de transporte de fosfato,neg,3,true
-purd,biossíntese de purinas,neg,0,true
+purd,biossï¿½ntese de purinas,neg,0,true
 pfla,flagelina,neg,3,true
-dksa,regulador global de transcrição,neg,3,true
-dnak,chaperona de choque térmico,neg,0,true
-rdgc,gene associado à virulência (função não caracterizada),neg,3,true
-pyrd,biossíntese de pirimidinas,neg,0,true
-gmha,biossíntese de lps (heptose),neg,3,true
-pcm,reparação de proteínas danificadas,neg,3,true
-nlpc,proteína de remodelamento de parede celular,neg,3,true
+dksa,regulador global de transcriï¿½ï¿½o,neg,3,true
+dnak,chaperona de choque tï¿½rmico,neg,0,true
+rdgc,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+pyrd,biossï¿½ntese de pirimidinas,neg,0,true
+gmha,biossï¿½ntese de lps (heptose),neg,3,true
+pcm,reparaï¿½ï¿½o de proteï¿½nas danificadas,neg,3,true
+nlpc,proteï¿½na de remodelamento de parede celular,neg,3,true
 trxa,tiorredoxina,neg,0,true
-rpmf,proteína ribossomal,neg,0,true
-stm3036,gene associado à virulência (função não caracterizada),neg,3,true
-heme,aquisição/metabolismo de heme,neg,3,true
-ycbg,gene associado à virulência (função não caracterizada),neg,3,true
-phop,regulador de virulência (phop),neg,3,true
-aroc,biossíntese de corismato (precursor de aminoácidos aromáticos),neg,3,true
-dppa,gene associado à virulência (função não caracterizada),neg,3,true
-ycih,gene associado à virulência (função não caracterizada),neg,3,true
-sana,gene associado à virulência (função não caracterizada),neg,3,true
-malx,gene associado à virulência (função não caracterizada),neg,3,true
-wece,biossíntese de lps,neg,3,true
-guaa,biossíntese de gmp,neg,0,true
-cspe,proteína de choque frio,neg,3,true
-spea,toxina estreptocócica a,neg,3,true
+rpmf,proteï¿½na ribossomal,neg,0,true
+stm3036,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+heme,aquisiï¿½ï¿½o/metabolismo de heme,neg,3,true
+ycbg,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+phop,regulador de virulï¿½ncia (phop),neg,3,true
+aroc,biossï¿½ntese de corismato (precursor de aminoï¿½cidos aromï¿½ticos),neg,3,true
+dppa,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+ycih,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+sana,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+malx,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+wece,biossï¿½ntese de lps,neg,3,true
+guaa,biossï¿½ntese de gmp,neg,0,true
+cspe,proteï¿½na de choque frio,neg,3,true
+spea,toxina estreptocï¿½cica a,neg,3,true
 atpa,subunidade de atp sintase,neg,0,true
-ychf,gene associado à virulência (função não caracterizada),neg,3,true
-aroa,biossíntese de corismato (precursor de aminoácidos aromáticos),neg,3,true
-yjag,gene associado à virulência (função não caracterizada),neg,3,true
+ychf,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
+aroa,biossï¿½ntese de corismato (precursor de aminoï¿½cidos aromï¿½ticos),neg,3,true
+yjag,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,3,true
 clpp,protease clpp,neg,0,true
-trpb,biossíntese de triptofano,neg,0,true
-znuc,proteína de transporte de zinco,neg,3,true
-tufa,fator de elongação tu,neg,0,true
-cara,biossíntese de carbamoil-fosfato,neg,0,true
-ruvb,reparação de dna (recombinação),neg,0,true
-mgla,sistema de transporte de magnésio,neg,3,true
+trpb,biossï¿½ntese de triptofano,neg,0,true
+znuc,proteï¿½na de transporte de zinco,neg,3,true
+tufa,fator de elongaï¿½ï¿½o tu,neg,0,true
+cara,biossï¿½ntese de carbamoil-fosfato,neg,0,true
+ruvb,reparaï¿½ï¿½o de dna (recombinaï¿½ï¿½o),neg,0,true
+mgla,sistema de transporte de magnï¿½sio,neg,3,true
 cpxa,sensor histidina quinase (sistema cpx),neg,3,true
 dcta,transportador de dicarboxilatos,neg,3,true
 pgm,fosfoglicomutase,neg,0,true
-fabg,biossíntese de ácidos graxos,neg,0,true
+fabg,biossï¿½ntese de ï¿½cidos graxos,neg,0,true
 galu,galactose-1-fosfato uridiltransferase,neg,0,true
 nuog,subunidade da nadh desidrogenase,neg,3,true
 galf,galactofuranosiltransferase,neg,0,true
 crp,regulador global crp,neg,3,true
 rpos,fator sigma s (resposta ao estresse),neg,3,true
-cspc,proteína de choque frio,neg,3,true
-hfq,proteína reguladora de rna,neg,0,true
+cspc,proteï¿½na de choque frio,neg,3,true
+hfq,proteï¿½na reguladora de rna,neg,0,true
 arca,regulador de dois componentes (arca),neg,3,true
-phou,regulador de virulência (phou),neg,3,true
+phou,regulador de virulï¿½ncia (phou),neg,3,true
 fkpa,chaperona fkpa,neg,3,true
 ompr,regulador de dois componentes (ompr),neg,0,true
 gyra,dna girase subunidade a,neg,3,true
 slyd,chaperona slyd,neg,0,true
-rfe,biossíntese de lps,neg,3,true
+rfe,biossï¿½ntese de lps,neg,3,true
 clpb,chaperona clpb,neg,3,true
-meta,gene associado à virulência (função não caracterizada),neg,0,true
+meta,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,0,true
 rpob,rna polimerase subunidade beta,neg,0,true
-trka,transportador de potássio,neg,0,true
-znub,proteína de transporte de zinco,neg,3,true
-purk,biossíntese de purinas,neg,3,true
+trka,transportador de potï¿½ssio,neg,0,true
+znub,proteï¿½na de transporte de zinco,neg,3,true
+purk,biossï¿½ntese de purinas,neg,3,true
 pta,fosfotransacetilase,neg,0,true
-ilvd,biossíntese de aminoácidos de cadeia ramificada,neg,0,true
+ilvd,biossï¿½ntese de aminoï¿½cidos de cadeia ramificada,neg,0,true
 foca,transportador de formiato,neg,0,true
-guab,biossíntese de gmp,neg,3,true
-miaa,modificação de trna,neg,0,true
+guab,biossï¿½ntese de gmp,neg,3,true
+miaa,modificaï¿½ï¿½o de trna,neg,0,true
 lon,protease lon,neg,3,true
-smpb,proteína de ligação a tmrna,neg,0,true
-carb,gene associado à virulência (função não caracterizada),neg,0,true
-purh,biossíntese de purinas,neg,0,true
-asd,biossíntese de aspartato-semialdeído desidrogenase,neg,0,true
+smpb,proteï¿½na de ligaï¿½ï¿½o a tmrna,neg,0,true
+carb,gene associado ï¿½ virulï¿½ncia (funï¿½ï¿½o nï¿½o caracterizada),neg,0,true
+purh,biossï¿½ntese de purinas,neg,0,true
+asd,biossï¿½ntese de aspartato-semialdeï¿½do desidrogenase,neg,0,true
 cyob,citocromo bo oxidase,neg,0,true
-lppa,lipoproteína de membrana,neg,0,true
+lppa,lipoproteï¿½na de membrana,neg,0,true
 cls,cardiolipina sintase,neg,3,true
 sera,serina racemase,neg,3,true
 uvry,regulador de dois componentes (uvry),neg,3,true
-map,proteína associada à adesão,neg,3,true
+map,proteï¿½na associada ï¿½ adesï¿½o,neg,3,true
 cpxr,regulador de dois componentes (cpxr),neg,3,true
-sspa,proteína de secreção,neg,3,true
-prfc,fator de liberação de tradução,neg,3,true
+sspa,proteï¿½na de secreï¿½ï¿½o,neg,3,true
+prfc,fator de liberaï¿½ï¿½o de traduï¿½ï¿½o,neg,3,true
 slrp,ligase e3 ubiquitina ,neg,3,true
 prfc,desconhecida,neg,3,true
-fimd,fímbrias tipo 1 ,neg,3,true
-eae,"codifica intimin, adesão íntima ao epitélio intestinal via lee ",neg,3,true
+fimd,fï¿½mbrias tipo 1 ,neg,3,true
+eae,"codifica intimin, adesï¿½o ï¿½ntima ao epitï¿½lio intestinal via lee ",neg,3,true
 tir,receptor translocado para intimin ,neg,3,true
-espa,efetores do sistema de secreção t3ss ,neg,3,true
-espb,efetores do sistema de secreção t3ss ,neg,3,true
-espd,efetores do sistema de secreção t3ss ,neg,3,true
+espa,efetores do sistema de secreï¿½ï¿½o t3ss ,neg,3,true
+espb,efetores do sistema de secreï¿½ï¿½o t3ss ,neg,3,true
+espd,efetores do sistema de secreï¿½ï¿½o t3ss ,neg,3,true
 ler,regulador da ilha lee ,neg,3,true
-chua,"captação de ferro no hospedeiro, importante para sobrevivência em ambientes limitados ",neg,3,true
-iha,adesina sideróforo ,neg,3,true
-nled,"efetor não-lee, inibe vias mapk da célula hospedeira, suprimindo resposta imune",neg,3,true
-gade,proteção em ambiente ácido,neg,3,true
+chua,"captaï¿½ï¿½o de ferro no hospedeiro, importante para sobrevivï¿½ncia em ambientes limitados ",neg,3,true
+iha,adesina siderï¿½foro ,neg,3,true
+nled,"efetor nï¿½o-lee, inibe vias mapk da cï¿½lula hospedeira, suprimindo resposta imune",neg,3,true
+gade,proteï¿½ï¿½o em ambiente ï¿½cido,neg,3,true
 flic,codifica flagelina,neg,3,true
 soxr,regulador estresse oxidatido,neg,3,true
