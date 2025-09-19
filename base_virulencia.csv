@@ -94,15 +94,19 @@ d5m70_14205,gene associado � virul�ncia (fun��o n�o caracterizada),pos
 e0i39_14285,gene associado � virul�ncia (fun��o n�o caracterizada),pos,3,true
 e1v33_13495,gene associado � virul�ncia (fun��o n�o caracterizada),pos,3,true
 fju19_13850,gene associado � virul�ncia (fun��o n�o caracterizada),pos,3,true
+hbla,marcador clássico de virulência ,pos,3,true
+hblb,marcador clássico de virulência ,pos,3,true
+hblc,marcador clássico de virulência ,pos,3,true
+cytk,marcador clássico de virulência ,pos,3,true
 nhea,"toxina enterotóxica não-hemolítica, ligada a quadros de diarreia ",pos,3,true
 nheb,"toxina enterotóxica não-hemolítica, ligada a quadros de diarreia ",pos,3,true
 nhec,"toxina enterotóxica não-hemolítica, ligada a quadros de diarreia ",pos,3,true
-basrs06430,Frequentemente detectado em cepas patogênicas ,pos,3,true
-dhba–f,Biossíntese de sideróforos (como bacillibactina) ,pos,1,true
-ilsa,"Proteína de superfície regulada por ferro, envolvida em adesão e invasão ",pos,1,true
-dhbaf,Biossíntese de sideróforos (como bacillibactina) ,pos,1,true
-inha,metaloprotease que pode degradar proteínas do hospedeiro ,pos,1,true
-bas_rs06430,Frequentemente detectado em cepas patogênicas ,pos,3,true
+basrs06430,frequentemente detectado em cepas patogênicas ,pos,2,true
+dhba–f,biossíntese de sideróforos (como bacillibactina) ,pos,1,true
+ilsa,"proteína de superfície regulada por ferro, envolvida em adesão e invasão ",pos,1,true
+dhbaf,biossíntese de sideróforos (como bacillibactina) ,pos,1,true
+inha,metaloprotease que pode degradar proteínas do hospedeiro ,pos,2,true
+bas_rs06430,frequentemente detectado em cepas patogênicas ,pos,3,true
 g3r95_002926,gene associado � virul�ncia (fun��o n�o caracterizada),pos,3,true
 ctx,toxina col�rica,neg,3,true
 vagc,fator de ades�o/virul�ncia,neg,3,true
@@ -274,6 +278,7 @@ sope2,efetor de t3ss,neg,3,true
 sopa,efetor de t3ss,neg,3,true
 span,componente estrutural t3ss ,neg,3,true
 sopb,efetor de t3ss,neg,3,true
+pagr,regulador de virulencia,neg,2,true
 pagc,regulador de virul�ncia,neg,3,true
 phop,regulador de virul�ncia (phop),neg,3,true
 phoq,regulador de virul�ncia (phoq),neg,3,true
