@@ -458,3 +458,51 @@ bpsc,UTP--glucose-1-phosphate uridylyltransferase,pos,2,true
 fhub,Fe(3+)-hydroxamate ABC transporter permease FhuB,pos,2,true
 asbf,petrobactin biosynthesis 3-dehydroshikimate dehydratase AsbF,pos,2,true
 bc_rs14930,immune inhibitor A,pos,3,true
+kphs_35590,Cápsula – proteção contra fagocitose,neg,1,true
+a225_rs19005,Motilidade flagelar,neg,1,true
+fliq,Componente do flagelo,neg,1,true
+flin,Componente do flagelo,neg,1,true
+fliy,Componente do flagelo,neg,1,true
+chez,Quimiotaxia – sinalização,neg,3,true
+mota,Motilidade flagelar,neg,1,true
+fur,Regulação da captação de ferro,neg,3,true
+acra,Sistema de efluxo AcrAB – resistência,neg,3,true
+entf,Síntese de enterobactina (sideróforo),neg,2,true
+fepa,Receptor de sideróforo enterobactina,neg,2,true
+acrb,Sistema de efluxo AcrAB – resistência,neg,3,true
+tssf,Sistema de secreção tipo VI,neg,2,true
+rcsb,Regulação da cápsula e biofilme,neg,3,true
+flim,Componente do motor flagelar,neg,2,true
+flig,Componente do motor flagelar,neg,3,true
+flia,Fator sigma do flagelo,neg,3,true
+csgd,Formação de fibras curli – adesão,neg,1,true
+phop,Regulação de virulência – sistema PhoP/PhoQ,neg,2,true
+flhc,Regulador mestre do flagelo,neg,2,true
+clpv,Sistema de secreção tipo VI,neg,2,true
+ugd,Biossíntese de LPS – resistência a peptídeos,neg,1,true
+flii,Montagem do flagelo,neg,2,true
+flif,Montagem do flagelo,neg,2,true
+flgg,Componente estrutural do flagelo,neg,2,true
+cheb,Quimiotaxia – sinalização,neg,2,true
+motb,Motilidade flagelar,neg,2,true
+ompa,Adesão e invasão celular,neg,2,true
+ente,Síntese de enterobactina,neg,2,true
+ents,Exportação de enterobactina,neg,2,true
+fepc,Transporte de sideróforo,neg,2,true
+fes,Hidrólise de enterobactina,neg,2,true
+apeco1_rs15990,Gene hipotético relacionado à virulência,neg,1,true
+tssk,Sistema de secreção tipo VI,neg,2,true
+yoji,Transportador de efluxo,neg,1,true
+mdtc,Transportador de efluxo de drogas,neg,1,true
+oqxa,Bomba de efluxo de antibióticos,neg,3,true
+rama,Regulador de resistência a múltiplos fármacos,neg,1,true
+pmrf,Proteína de membrana associada à resistência,neg,1,true
+emrr,Regulador negativo do sistema EmrAB,neg,2,true
+mdtb,Transportador de efluxo de drogas,neg,2,true
+h-ns,Regulação global da expressão gênica,neg,3,true
+oqxb,Bomba de efluxo de antibióticos,neg,3,true
+rosa,Regulação da resposta ao estresse oxidativo,neg,1,true
+emrb,Sistema de efluxo EmrAB,neg,3,true
+acrd,Sistema de efluxo AcrD,neg,2,true
+msba,Transporte de lipopolissacarídeos,neg,3,true
+mdfa,Transportador de efluxo de drogas,neg,1,true
