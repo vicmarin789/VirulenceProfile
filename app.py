@@ -69,8 +69,12 @@ arquivo = st.file_uploader(
     type=["csv"]
 )
 
+
 if arquivo:
-    df_input = pd.read_csv(arquivo)
+    df_input = pd.read_csv(arquivo, sep="\t")
+
+    df_input.columns = df_input.columns.str.strip().str.lower()
+
     df_input["gene"] = df_input["gene"].astype(str).str.strip().str.lower()
 
     st.write(f"📄 Genes no arquivo enviado: {len(df_input)}")
@@ -97,6 +101,7 @@ if arquivo:
                     "cobertura": cobertura,
                     "probabilidade": probabilidade
                 })
+
 
         if resultados:
             df_resultados = pd.DataFrame(resultados)
