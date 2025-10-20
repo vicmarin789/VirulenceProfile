@@ -440,3 +440,21 @@ nled,"efetor n�o-lee, inibe vias mapk da c�lula hospedeira, suprimindo respo
 gade,prote��o em ambiente �cido,neg,3,true
 flic,codifica flagelina,neg,3,true
 soxr,regulador estresse oxidatido,neg,3,true
+nhea,non-hemolytic enterotoxin A,pos,3,true
+plca,phospholipase C,pos,3,true
+bce_rs26770,hemolysin III family protein,pos,3,true
+galu,UTP--glucose-1-phosphate uridylyltransferase GalU,pos,1,true
+gbaa_rs23155,iron-siderophore ABC transporter substrate-binding protein,pos,2,true
+hlyiii,hemolysin III family protein,pos,3,true
+asbe,petrobactin biosynthesis protein AsbE,pos,2,true
+gale,UDP-glucose 4-epimerase GalE,pos,1,true
+eno,phosphopyruvate hydratase,pos,1,true
+bce_rs07035,immune inhibitor A,pos,3,true
+asba,petrobactin biosynthesis protein AsbA,pos,2,true
+bc_rs06405,immune inhibitor A,pos,3,true
+tuf,elongation factor Tu,pos,1,true
+bcerkbab4_rs24660,anthrolysin O/cereolysin O family cholesterol-dependent cytolysin,pos,3,true
+bpsc,UTP--glucose-1-phosphate uridylyltransferase,pos,2,true
+fhub,Fe(3+)-hydroxamate ABC transporter permease FhuB,pos,2,true
+asbf,petrobactin biosynthesis 3-dehydroshikimate dehydratase AsbF,pos,2,true
+bc_rs14930,immune inhibitor A,pos,3,true
