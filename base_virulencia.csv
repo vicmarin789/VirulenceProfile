@@ -313,7 +313,6 @@ spa,prote�na a,neg,3,true
 clfa,clumping factor a,neg,3,true
 fnba,fibronectin-binding protein a,neg,3,true
 rmpa,regulador de mucoviscosidade,neg,3,true
-entb,enterotoxina,neg,3,true
 uge,udp-galactose epimerase (s�ntese de c�psula),neg,3,true
 ybts,sistema transportador de sider�foro,neg,3,true
 stx,toxina shiga,neg,3,true
@@ -503,6 +502,10 @@ h-ns,Regulação global da expressão gênica,neg,3,true
 oqxb,Bomba de efluxo de antibióticos,neg,3,true
 rosa,Regulação da resposta ao estresse oxidativo,neg,1,true
 emrb,Sistema de efluxo EmrAB,neg,3,true
-acrd,Sistema de efluxo AcrD,neg,2,true
-msba,Transporte de lipopolissacarídeos,neg,3,true
-mdfa,Transportador de efluxo de drogas,neg,1,true
+acrd,sistema de efluxo acrd,neg,2,true
+msba,transporte de lipopolissacarídeos,neg,3,true
+mdfa,transportador de efluxo de drogas,neg,1,true
+fepd,parte do sistema de transporte de enterobactina (sideróforo),neg,2,true
+chey,proteína de sinalização da quimiotaxia,neg,2,true
+flgb,Componente estrutural do flagelo,neg,2,true
+epg,não há informações específicas sobre virulência; pode ser gene hipotético ou com função não caracterizada,neg,1,true
