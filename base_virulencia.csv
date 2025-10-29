@@ -53,6 +53,7 @@ bgz_00044,gene associado � virul�ncia (fun��o n�o caracterizada),neg,3
 rcs36_pi-ii0053,gene associado � virul�ncia (fun��o n�o caracterizada),neg,3,true
 hly,toxina hemolisina,pos,3,true
 hla,toxina hemolisina alfa,pos,3,true
+entc,enterotoxina,pos,3,true
 enta,enterotoxina,pos,3,true
 entc2,enterotoxina,pos,3,true
 enth,enterotoxina,pos,3,true
@@ -360,7 +361,6 @@ rpmf,prote�na ribossomal,neg,0,true
 stm3036,gene associado � virul�ncia (fun��o n�o caracterizada),neg,3,true
 heme,aquisi��o/metabolismo de heme,neg,3,true
 ycbg,gene associado � virul�ncia (fun��o n�o caracterizada),neg,3,true
-phop,regulador de virul�ncia (phop),neg,3,true
 aroc,bioss�ntese de corismato (precursor de amino�cidos arom�ticos),neg,3,true
 dppa,gene associado � virul�ncia (fun��o n�o caracterizada),neg,3,true
 ycih,gene associado � virul�ncia (fun��o n�o caracterizada),neg,3,true
@@ -437,75 +437,85 @@ chua,"capta��o de ferro no hospedeiro, importante para sobreviv�ncia em am
 iha,adesina sider�foro ,neg,3,true
 nled,"efetor n�o-lee, inibe vias mapk da c�lula hospedeira, suprimindo resposta imune",neg,3,true
 gade,prote��o em ambiente �cido,neg,3,true
-flic,codifica flagelina,neg,3,true
+flic,codifica flagelina,neg,2,true
 soxr,regulador estresse oxidatido,neg,3,true
-nhea,non-hemolytic enterotoxin A,pos,3,true
-plca,phospholipase C,pos,3,true
-bce_rs26770,hemolysin III family protein,pos,3,true
-galu,UTP--glucose-1-phosphate uridylyltransferase GalU,pos,1,true
-gbaa_rs23155,iron-siderophore ABC transporter substrate-binding protein,pos,2,true
-hlyiii,hemolysin III family protein,pos,3,true
-asbe,petrobactin biosynthesis protein AsbE,pos,2,true
-gale,UDP-glucose 4-epimerase GalE,pos,1,true
+nhea,non-hemolytic enterotoxin a,pos,3,true
+plca,phospholipase c,pos,3,true
+bce_rs26770,hemolysin iii family protein,pos,3,true
+galu,utp--glucose-1-phosphate uridylyltransferase galu,pos,1,true
+gbaa_rs23155,iron-siderophore abc transporter substrate-binding protein,pos,2,true
+hlyiii,hemolysin iii family protein,pos,3,true
+asbe,petrobactin biosynthesis protein asbe,pos,2,true
+gale,udp-glucose 4-epimerase gale,pos,1,true
 eno,phosphopyruvate hydratase,pos,1,true
-bce_rs07035,immune inhibitor A,pos,3,true
-asba,petrobactin biosynthesis protein AsbA,pos,2,true
-bc_rs06405,immune inhibitor A,pos,3,true
-tuf,elongation factor Tu,pos,1,true
-bcerkbab4_rs24660,anthrolysin O/cereolysin O family cholesterol-dependent cytolysin,pos,3,true
-bpsc,UTP--glucose-1-phosphate uridylyltransferase,pos,2,true
-fhub,Fe(3+)-hydroxamate ABC transporter permease FhuB,pos,2,true
-asbf,petrobactin biosynthesis 3-dehydroshikimate dehydratase AsbF,pos,2,true
-bc_rs14930,immune inhibitor A,pos,3,true
-kphs_35590,Cápsula – proteção contra fagocitose,neg,1,true
-a225_rs19005,Motilidade flagelar,neg,1,true
-fliq,Componente do flagelo,neg,1,true
-flin,Componente do flagelo,neg,1,true
-fliy,Componente do flagelo,neg,1,true
-chez,Quimiotaxia – sinalização,neg,3,true
-mota,Motilidade flagelar,neg,1,true
-fur,Regulação da captação de ferro,neg,3,true
-acra,Sistema de efluxo AcrAB – resistência,neg,3,true
-entf,Síntese de enterobactina (sideróforo),neg,2,true
-fepa,Receptor de sideróforo enterobactina,neg,2,true
-acrb,Sistema de efluxo AcrAB – resistência,neg,3,true
-tssf,Sistema de secreção tipo VI,neg,2,true
-rcsb,Regulação da cápsula e biofilme,neg,3,true
-flim,Componente do motor flagelar,neg,2,true
-flig,Componente do motor flagelar,neg,3,true
-flia,Fator sigma do flagelo,neg,3,true
-csgd,Formação de fibras curli – adesão,neg,1,true
-phop,Regulação de virulência – sistema PhoP/PhoQ,neg,2,true
-flhc,Regulador mestre do flagelo,neg,2,true
-clpv,Sistema de secreção tipo VI,neg,2,true
-ugd,Biossíntese de LPS – resistência a peptídeos,neg,1,true
-flii,Montagem do flagelo,neg,2,true
-flif,Montagem do flagelo,neg,2,true
-flgg,Componente estrutural do flagelo,neg,2,true
-cheb,Quimiotaxia – sinalização,neg,2,true
-motb,Motilidade flagelar,neg,2,true
-ompa,Adesão e invasão celular,neg,2,true
-ente,Síntese de enterobactina,neg,2,true
-ents,Exportação de enterobactina,neg,2,true
-fepc,Transporte de sideróforo,neg,2,true
-fes,Hidrólise de enterobactina,neg,2,true
-apeco1_rs15990,Gene hipotético relacionado à virulência,neg,1,true
-tssk,Sistema de secreção tipo VI,neg,2,true
-yoji,Transportador de efluxo,neg,1,true
-mdtc,Transportador de efluxo de drogas,neg,1,true
-oqxa,Bomba de efluxo de antibióticos,neg,3,true
-rama,Regulador de resistência a múltiplos fármacos,neg,1,true
-pmrf,Proteína de membrana associada à resistência,neg,1,true
-emrr,Regulador negativo do sistema EmrAB,neg,2,true
-mdtb,Transportador de efluxo de drogas,neg,2,true
-h-ns,Regulação global da expressão gênica,neg,3,true
-oqxb,Bomba de efluxo de antibióticos,neg,3,true
-rosa,Regulação da resposta ao estresse oxidativo,neg,1,true
-emrb,Sistema de efluxo EmrAB,neg,3,true
+bce_rs07035,immune inhibitor a,pos,3,true
+asba,petrobactin biosynthesis protein asba,pos,2,true
+bc_rs06405,immune inhibitor a,pos,3,true
+tuf,elongation factor tu,pos,1,true
+bcerkbab4_rs24660,anthrolysin o/cereolysin o family cholesterol-dependent cytolysin,pos,3,true
+bpsc,utp--glucose-1-phosphate uridylyltransferase,pos,2,true
+fhub,fe(3+)-hydroxamate abc transporter permease fhub,pos,2,true
+asbf,petrobactin biosynthesis 3-dehydroshikimate dehydratase asbf,pos,2,true
+bc_rs14930,immune inhibitor a,pos,3,true
+kphs_35590,cápsula – proteção contra fagocitose,neg,1,true
+a225_rs19005,motilidade flagelar,neg,2,true
+fliq,componente do flagelo,neg,2,true
+flin,componente do flagelo,neg,2,true
+fliy,componente do flagelo,neg,1,true
+chez,quimiotaxia – sinalização,neg,2,true
+mota,motilidade flagelar,neg,2,true
+fur,regulação da captação de ferro,neg,3,true
+acra,sistema de efluxo acrab – resistência,neg,2,true
+entf,síntese de enterobactina (sideróforo),neg,3,true
+fepb,receptor de sideróforo enterobactina,neg,3,true
+fepa,receptor de sideróforo enterobactina,neg,3,true
+acrb,sistema de efluxo acrab – resistência,neg,2,true
+tssf,sistema de secreção tipo vi,neg,3,true
+rcsb,regulação da cápsula e biofilme,neg,3,true
+flim,componente do motor flagelar,neg,2,true
+flig,componente do motor flagelar,neg,2,true
+flia,fator sigma do flagelo,neg,2,true
+csgd,formação de fibras curli – adesão,neg,1,true
+flha,regulador mestre do flagelo,neg,2,true
+flhc,regulador mestre do flagelo,neg,2,true
+clpv,sistema de secreção tipo vi,neg,2,true
+ugd,biossíntese de lps – resistência a peptídeos,neg,3,true
+flii,montagem do flagelo,neg,2,true
+flif,montagem do flagelo,neg,2,true
+flgg,componente estrutural do flagelo,neg,2,true
+cheb,quimiotaxia – sinalização,neg,2,true
+motb,motilidade flagelar,neg,2,true
+ompa,adesão e invasão celular,neg,2,true
+ente,síntese de enterobactina,neg,2,true
+ents,exportação de enterobactina,neg,3,true
+fepc,transporte de sideróforo,neg,3,true
+fes,hidrólise de enterobactina,neg,3,true
+apeco1_rs15990,gene hipotético relacionado à virulência,neg,1,true
+tssk,sistema de secreção tipo vi,neg,3,true
+yoji,transportador de efluxo,neg,1,true
+mdtc,transportador de efluxo de drogas,neg,2,true
+oqxa,bomba de efluxo de antibióticos,neg,2,true
+rama,regulador de resistência a múltiplos fármacos,neg,1,true
+pmrf,proteína de membrana associada à resistência,neg,1,true
+emrr,regulador negativo do sistema emrab,neg,2,true
+mdtb,transportador de efluxo de drogas,neg,2,true
+h-ns,regulação global da expressão gênica,neg,3,true
+oqxb,bomba de efluxo de antibióticos,neg,2,true
+rosa,regulação da resposta ao estresse oxidativo,neg,1,true
+emrb,sistema de efluxo emrab,neg,2,true
+acrr,sistema de efluxo acrd,neg,2,true
 acrd,sistema de efluxo acrd,neg,2,true
 msba,transporte de lipopolissacarídeos,neg,3,true
-mdfa,transportador de efluxo de drogas,neg,1,true
-fepd,parte do sistema de transporte de enterobactina (sideróforo),neg,2,true
+mdfa,transportador de efluxo de drogas,neg,2,true
+fepg,parte do sistema de transporte de enterobactina (sideróforo),neg,3,true
+fepd,parte do sistema de transporte de enterobactina (sideróforo),neg,3,true
+chea,proteína de sinalização da quimiotaxia,neg,2,true
+chew,proteína de sinalização da quimiotaxia,neg,2,true
 chey,proteína de sinalização da quimiotaxia,neg,2,true
-flgb,Componente estrutural do flagelo,neg,2,true
+flgb,componente estrutural do flagelo,neg,2,true
 epg,não há informações específicas sobre virulência; pode ser gene hipotético ou com função não caracterizada,neg,1,true
+csgd,formação de biofilmes,neg,3,true
+hcp,sistema de secreção tipo vi (t6ss),neg,3,true
+tssd,sistema de secreção tipo vi (t6ss),neg,3,true
+vipb,proteína estrutural do t6ss ,neg,3,true
+tssc,atua junto com vipa para formar a bainha contrátil do t6ss ,neg,3,true
