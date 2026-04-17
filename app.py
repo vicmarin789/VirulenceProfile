@@ -98,11 +98,20 @@ if arquivo:
             df_resultados = pd.DataFrame(resultados)
 
             # Nova lógica de classificação
-            categorias = df_resultados["categoria"].str.lower()
+            genes = df_resultados["gene"].str.lower()
 
-            if any(categorias.str.contains("toxina|capsula|biofilme|flagelina")):
+            # Lista consolidada de toxinas confirmadas (Gram+ e Gram-)
+            toxinas_confirmadas = (
+                "stx|eae|tir|espA|espB|espD|hlyA|cnf1|pvl|"
+                "pagA|lef|cya|hblA|hblC|hblD|nheA|nheB|nheC|cytK|"
+                "eta|etb|tcdA|tcdB|speA|speB|speC|slo|sls|tsst1|sea|seb|sec|sed|see|"
+                "ctxA|ctxB|tcpA|zot|ace|yop|lcrV|pla|exoS|exoT|exoU|exoY|toxA|lasB|aprA|"
+                "cpa|cpb|etx|iap|cpe"
+            )
+
+            if any(genes.str.contains(toxinas_confirmadas, case=False)):
                 classificacao = "Alta probabilidade de patogenicidade"
-            elif any(categorias.str.contains("regulador|sigma|ferro")):
+            elif any(df_resultados["categoria"].str.lower().str.contains("regulador|sigma|ferro")):
                 classificacao = "Média probabilidade de patogenicidade"
             else:
                 classificacao = "Baixa probabilidade de patogenicidade"
@@ -115,4 +124,5 @@ if arquivo:
 
         else:
             st.warning("Nenhum gene foi classificado com os critérios atuais.")
+
 
