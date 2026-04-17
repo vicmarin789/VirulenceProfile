@@ -518,9 +518,9 @@ tssd,sistema de secreção tipo vi (t6ss),neg,3,true
 vipb,proteína estrutural do t6ss ,neg,3,true
 tssc,atua junto com vipa para formar a bainha contrátil do t6ss ,neg,3,true
 spea,arginina descarboxilase ,neg,0,true
-speA_toxina,Exotoxina pirogênica A (superantígeno),neg,3,true
-speB,Protease cisteína extracelular,neg,3,true
-speC,Exotoxina pirogênica C (superantígeno),neg,3,true
+spea_toxina,Exotoxina pirogênica A (superantígeno),neg,3,true
+speb,Protease cisteína extracelular,neg,3,true
+spec,Exotoxina pirogênica C (superantígeno),neg,3,true
 slo,Streptolisina O (hemolisina),neg,3,true
 sls,Streptolisina S (hemolisina),neg,3,true
 sic,Inibidor do complemento,neg,3,true
