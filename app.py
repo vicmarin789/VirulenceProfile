@@ -97,9 +97,6 @@ if arquivo:
         if resultados:
             df_resultados = pd.DataFrame(resultados)
 
-            # Nova lógica de classificação
-            genes = df_resultados["gene"].str.lower()
-
             # Lista consolidada de toxinas confirmadas (Gram+ e Gram-)
             toxinas_confirmadas = (
                 "stx|eae|tir|espA|espB|espD|hlyA|cnf1|pvl|"
@@ -109,20 +106,26 @@ if arquivo:
                 "cpa|cpb|etx|iap|cpe"
             )
 
+            genes = df_resultados["gene"].str.lower()
+            soma_prob = df_resultados["probabilidade"].sum()
+
+            # Nova lógica combinada
             if any(genes.str.contains(toxinas_confirmadas, case=False)):
                 classificacao = "Alta probabilidade de patogenicidade"
-            elif any(df_resultados["categoria"].str.lower().str.contains("regulador|sigma|ferro")):
+            elif soma_prob >= 30:
+                classificacao = "Alta probabilidade de patogenicidade"
+            elif soma_prob >= 15:
                 classificacao = "Média probabilidade de patogenicidade"
             else:
                 classificacao = "Baixa probabilidade de patogenicidade"
 
             st.markdown("## 📊 Resultado da análise")
             st.write(f"**Classificação:** {classificacao}")
+            st.write(f"**Soma total das probabilidades:** {soma_prob:.2f}")
 
             st.markdown("## 📋 Tabela de Resultados")
             st.dataframe(df_resultados, use_container_width=True)
 
         else:
             st.warning("Nenhum gene foi classificado com os critérios atuais.")
-
 
