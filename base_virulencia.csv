@@ -369,7 +369,6 @@ malx,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
 wece,bioss�ntese de lps,neg,1,true
 guaa,bioss�ntese de gmp,neg,0,true
 cspe,prote�na de choque frio,neg,0,true
-spea,Arginina decarboxilase,neg,0,true
 atpa,subunidade de atp sintase,neg,0,true
 ychf,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
 aroa,bioss�ntese de corismato (precursor de amino�cidos arom�ticos),neg,2,true
@@ -518,4 +517,4 @@ hcp,sistema de secreção tipo vi (t6ss),neg,3,true
 tssd,sistema de secreção tipo vi (t6ss),neg,3,true
 vipb,proteína estrutural do t6ss ,neg,3,true
 tssc,atua junto com vipa para formar a bainha contrátil do t6ss ,neg,3,true
-spea,arginina decarboxilase ,neg,0,true
+spea,arginina descarboxilase ,neg,0,true
