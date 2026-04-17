@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+import re
 
 st.set_page_config(page_title="Analisador de Patogenicidade", layout="wide")
 
@@ -106,11 +107,16 @@ if arquivo:
                 "cpa|cpb|etx|iap|cpe"
             )
 
-            genes = df_resultados["gene"].str.lower()
             soma_prob = df_resultados["probabilidade"].sum()
 
-            # Nova lógica combinada
-            if any(genes.str.contains(toxinas_confirmadas, case=False)):
+            # Nova lógica combinada com filtro de peso
+            alta = False
+            for _, row in df_resultados.iterrows():
+                if row["peso"] >= 3 and re.search(toxinas_confirmadas, row["gene"], re.IGNORECASE):
+                    alta = True
+                    break
+
+            if alta:
                 classificacao = "Alta probabilidade de patogenicidade"
             elif soma_prob >= 30:
                 classificacao = "Alta probabilidade de patogenicidade"
