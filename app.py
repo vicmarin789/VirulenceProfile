@@ -13,8 +13,6 @@ def carregar_base():
     except Exception:
         df = pd.read_csv("base_virulencia.csv", sep=None, engine="python", encoding="latin-1")
 
-    # 🔹 Linha de debug removida
-
     if "gene" not in df.columns:
         for col in df.columns:
             if col.strip().lower() == "gene":
@@ -39,8 +37,6 @@ def backup_base():
         df = pd.read_csv("base_virulencia.csv", sep=None, engine="python", encoding="latin-1")
     df.to_csv(f"base_virulencia_backup_{data_str}.csv", index=False)
 
-# backup_base()  # Descomente se quiser backup automático
-
 # -----------------------------
 # Interface
 # -----------------------------
@@ -48,7 +44,6 @@ st.title("🧬 Analisador de Patogenicidade Bacteriana")
 st.write("Envie um arquivo CSV para iniciar a análise.")
 
 base = carregar_base()
-# 🔹 Linha de debug removida
 
 # Modelo CSV para download
 modelo_df = pd.DataFrame({
@@ -69,12 +64,9 @@ arquivo = st.file_uploader(
     type=["csv"]
 )
 
-
 if arquivo:
     df_input = pd.read_csv(arquivo, sep="\t")
-
     df_input.columns = df_input.columns.str.strip().str.lower()
-
     df_input["gene"] = df_input["gene"].astype(str).str.strip().str.lower()
 
     st.write(f"📄 Genes no arquivo enviado: {len(df_input)}")
@@ -88,7 +80,7 @@ if arquivo:
             cobertura = row["cobertura"]
 
             match = base[base["gene"] == gene]
-            if not match.empty and identidade >= 95 and cobertura >= 95:
+            if not match.empty and identidade >= 85 and cobertura >= 95:
                 info = match.iloc[0]
                 probabilidade = round((identidade / 100) * (cobertura / 100) * (info["peso"] / 3), 2)
                 resultados.append({
@@ -102,21 +94,20 @@ if arquivo:
                     "probabilidade": probabilidade
                 })
 
-
         if resultados:
             df_resultados = pd.DataFrame(resultados)
-            df_resultados["peso"] = pd.to_numeric(df_resultados["peso"], errors="coerce")
-            pontuacao_total = df_resultados["peso"].sum()
 
-            if pontuacao_total >= 30:
+            # Nova lógica de classificação
+            categorias = df_resultados["categoria"].str.lower()
+
+            if any(categorias.str.contains("toxina|capsula|biofilme|flagelina")):
                 classificacao = "Alta probabilidade de patogenicidade"
-            elif pontuacao_total >= 20:
+            elif any(categorias.str.contains("regulador|sigma|ferro")):
                 classificacao = "Média probabilidade de patogenicidade"
             else:
                 classificacao = "Baixa probabilidade de patogenicidade"
 
             st.markdown("## 📊 Resultado da análise")
-            st.write(f"**Pontuação total ajustada:** {pontuacao_total}")
             st.write(f"**Classificação:** {classificacao}")
 
             st.markdown("## 📋 Tabela de Resultados")
@@ -124,3 +115,4 @@ if arquivo:
 
         else:
             st.warning("Nenhum gene foi classificado com os critérios atuais.")
+
