@@ -101,7 +101,7 @@ if arquivo:
             toxinas_confirmadas = (
                 "stx|eae|tir|espA|espB|espD|hlyA|cnf1|pvl|"
                 "pagA|lef|cya|hblA|hblC|hblD|nheA|nheB|nheC|cytK|"
-                "eta|etb|tcdA|tcdB|speA|speB|speC|slo|sls|tsst1|sea|seb|sec|sed|see|"
+                "eta|etb|tcdA|tcdB|speB|speC|slo|sls|tsst1|sea|seb|sec|sed|see|"
                 "ctxA|ctxB|tcpA|zot|ace|yop|lcrV|pla|exoS|exoT|exoU|exoY|toxA|lasB|aprA|"
                 "cpa|cpb|etx|iap|cpe"
             )
