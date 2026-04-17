@@ -66,7 +66,7 @@ arquivo = st.file_uploader(
 )
 
 if arquivo:
-    df_input = pd.read_csv(arquivo, sep="\t")
+    df_input = pd.read_csv(arquivo, sep=None, engine="python")
     df_input.columns = df_input.columns.str.strip().str.lower()
     df_input["gene"] = df_input["gene"].astype(str).str.strip().str.lower()
 
