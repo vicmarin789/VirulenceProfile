@@ -346,16 +346,16 @@ csub,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
 pgaa,bioss�ntese de polissacar�deo de ades�o (pga),neg,3,true
 pgab,bioss�ntese de polissacar�deo de ades�o (pga),neg,3,true
 pgac,bioss�ntese de polissacar�deo de ades�o (pga),neg,3,true
-pstc,sistema de transporte de fosfato,neg,3,true
+pstc,sistema de transporte de fosfato,neg,0,true
 purd,bioss�ntese de purinas,neg,0,true
-pfla,flagelina,neg,3,true
-dksa,regulador global de transcri��o,neg,1,true
+pfla,flagelina,neg,1,true
+dksa,regulador global de transcri��o,neg,0,true
 dnak,chaperona de choque t�rmico,neg,0,true
 rdgc,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
 pyrd,bioss�ntese de pirimidinas,neg,0,true
-gmha,bioss�ntese de lps (heptose),neg,3,true
+gmha,bioss�ntese de lps (heptose),neg,0,true
 pcm,repara��o de prote�nas danificadas,neg,3,true
-nlpc,prote�na de remodelamento de parede celular,neg,3,true
+nlpc,prote�na de remodelamento de parede celular,neg,1,true
 trxa,tiorredoxina,neg,0,true
 rpmf,prote�na ribossomal,neg,0,true
 stm3036,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
@@ -364,16 +364,16 @@ ycbg,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
 aroc,bioss�ntese de corismato (precursor de amino�cidos arom�ticos),neg,1,true
 dppa,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
 ycih,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
-sana,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
+sana,gene associado � virul�ncia (fun��o n�o caracterizada),dks,1,true
 malx,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
-wece,bioss�ntese de lps,neg,3,true
+wece,bioss�ntese de lps,neg,1,true
 guaa,bioss�ntese de gmp,neg,0,true
-cspe,prote�na de choque frio,neg,3,true
+cspe,prote�na de choque frio,neg,0,true
 spea,toxina estreptoc�cica a,neg,3,true
 atpa,subunidade de atp sintase,neg,0,true
-ychf,gene associado � virul�ncia (fun��o n�o caracterizada),neg,3,true
-aroa,bioss�ntese de corismato (precursor de amino�cidos arom�ticos),neg,3,true
-yjag,gene associado � virul�ncia (fun��o n�o caracterizada),neg,3,true
+ychf,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
+aroa,bioss�ntese de corismato (precursor de amino�cidos arom�ticos),neg,2,true
+yjag,gene associado � virul�ncia (fun��o n�o caracterizada),neg,1,true
 clpp,protease clpp,neg,0,true
 trpb,bioss�ntese de triptofano,neg,0,true
 znuc,prote�na de transporte de zinco,neg,0,true
@@ -396,7 +396,7 @@ arca,regulador de dois componentes (arca),neg,1,true
 phou,regulador de virul�ncia (phou),neg,3,true
 fkpa,chaperona fkpa,neg,3,true
 ompr,regulador de dois componentes (ompr),neg,0,true
-gyra,dna girase subunidade a,neg,3,true
+gyra,dna girase subunidade a,neg,0,true
 slyd,chaperona slyd,neg,0,true
 rfe,bioss�ntese de lps,neg,1,true
 clpb,chaperona clpb,neg,1,true
@@ -471,7 +471,7 @@ fepb,receptor de sideróforo enterobactina,neg,0,true
 fepa,receptor de sideróforo enterobactina,neg,0,true
 acrb,sistema de efluxo acrab – resistência,neg,1,true
 tssf,sistema de secreção tipo vi,neg,3,true
-rcsb,regulação da cápsula e biofilme,neg,3,true
+rcsb,regulação da cápsula e biofilme,neg,1,true
 flim,componente do motor flagelar,neg,0,true
 flig,componente do motor flagelar,neg,0,true
 flia,fator sigma do flagelo,neg,1,true
