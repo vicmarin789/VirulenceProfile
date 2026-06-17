@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-import re
 
 st.set_page_config(page_title="Analisador de Patogenicidade", layout="wide")
 
@@ -13,6 +12,8 @@ def carregar_base():
         df = pd.read_csv("base_virulencia.csv", sep=None, engine="python", encoding="utf-8")
     except Exception:
         df = pd.read_csv("base_virulencia.csv", sep=None, engine="python", encoding="latin-1")
+
+    # 🔹 Linha de debug removida
 
     if "gene" not in df.columns:
         for col in df.columns:
@@ -38,6 +39,8 @@ def backup_base():
         df = pd.read_csv("base_virulencia.csv", sep=None, engine="python", encoding="latin-1")
     df.to_csv(f"base_virulencia_backup_{data_str}.csv", index=False)
 
+# backup_base()  # Descomente se quiser backup automático
+
 # -----------------------------
 # Interface
 # -----------------------------
@@ -45,6 +48,7 @@ st.title("🧬 Analisador de Patogenicidade Bacteriana")
 st.write("Envie um arquivo CSV para iniciar a análise.")
 
 base = carregar_base()
+# 🔹 Linha de debug removida
 
 # Modelo CSV para download
 modelo_df = pd.DataFrame({
@@ -66,8 +70,7 @@ arquivo = st.file_uploader(
 )
 
 if arquivo:
-    df_input = pd.read_csv(arquivo, sep=None, engine="python")
-    df_input.columns = df_input.columns.str.strip().str.lower()
+    df_input = pd.read_csv(arquivo)
     df_input["gene"] = df_input["gene"].astype(str).str.strip().str.lower()
 
     st.write(f"📄 Genes no arquivo enviado: {len(df_input)}")
@@ -81,7 +84,7 @@ if arquivo:
             cobertura = row["cobertura"]
 
             match = base[base["gene"] == gene]
-            if not match.empty and identidade >= 85 and cobertura >= 95:
+            if not match.empty and identidade >= 95 and cobertura >= 95:
                 info = match.iloc[0]
                 probabilidade = round((identidade / 100) * (cobertura / 100) * (info["peso"] / 3), 2)
                 resultados.append({
@@ -97,41 +100,22 @@ if arquivo:
 
         if resultados:
             df_resultados = pd.DataFrame(resultados)
+            df_resultados["peso"] = pd.to_numeric(df_resultados["peso"], errors="coerce")
+            pontuacao_total = df_resultados["peso"].sum()
 
-            # Lista consolidada de toxinas confirmadas (Gram+ e Gram-)
-            toxinas_confirmadas = (
-                "stx|eae|tir|espA|espB|espD|hlyA|cnf1|pvl|"
-                "pagA|lef|cya|hblA|hblC|hblD|nheA|nheB|nheC|cytK|"
-                "eta|etb|tcdA|tcdB|speA_toxina|speB|speC|slo|sls|tsst1|sea|seb|sec|sed|see|"
-                "ctxA|ctxB|tcpA|zot|ace|yop|lcrV|pla|exoS|exoT|exoU|exoY|toxA|lasB|aprA|"
-                "cpa|cpb|etx|iap|cpe"
-            )
-
-            soma_prob = df_resultados["probabilidade"].sum()
-
-            # Nova lógica combinada com filtro de peso
-            alta = False
-            for _, row in df_resultados.iterrows():
-                if row["peso"] >= 3 and re.search(toxinas_confirmadas, row["gene"], re.IGNORECASE):
-                    alta = True
-                    break
-
-            if alta:
+            if pontuacao_total >= 30:
                 classificacao = "Alta probabilidade de patogenicidade"
-            elif soma_prob >= 30:
-                classificacao = "Alta probabilidade de patogenicidade"
-            elif soma_prob >= 15:
+            elif pontuacao_total >= 20:
                 classificacao = "Média probabilidade de patogenicidade"
             else:
                 classificacao = "Baixa probabilidade de patogenicidade"
 
             st.markdown("## 📊 Resultado da análise")
+            st.write(f"**Pontuação total ajustada:** {pontuacao_total}")
             st.write(f"**Classificação:** {classificacao}")
-            st.write(f"**Soma total das probabilidades:** {soma_prob:.2f}")
 
             st.markdown("## 📋 Tabela de Resultados")
             st.dataframe(df_resultados, use_container_width=True)
 
         else:
             st.warning("Nenhum gene foi classificado com os critérios atuais.")
-
